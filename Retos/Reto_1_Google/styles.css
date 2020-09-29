@@ -1,0 +1,129 @@
+nav{
+    height: 50px;
+}
+body{
+    background-image: url(fondoneon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main{
+    height: 450px;
+}
+footer{
+    height: 50px;
+}
+.topIcons{
+    text-align: end;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topText{
+    color: white;
+    size: 80dp;
+    margin-right: 15px;
+    
+}
+.imgCuadritos{
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+.txtGoogle{
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    height: 40px;
+}
+.sectionBar{
+    display: block;
+    text-align: center ;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.searchBar{
+    text-align: left;
+    background-color: white;
+    border-radius: 50px;
+    width: 600px;
+    height: 30px;
+    display: inline-block;
+}
+.seccionLupa{
+    margin: auto
+    ;
+    display: inline-block;
+    height: 19px;
+    width: 19px;
+
+}
+.searchBarLupa{
+    height: 14px;
+    width: 14px;
+}
+.seccionSearch{
+    display: inline-block;
+    margin-left: 15px; 
+    height: 19px;
+
+}
+.searchBarInput{
+    border:none;
+    text-align: left;
+    width: 495px;
+
+}
+.seccionMicro{
+    display: inline-block;
+    margin-left: 15px;
+    height: 19px;
+    width: 19px;
+}
+.searchBarMicro{
+    height: 14px;
+    width: 14px;
+}
+.seccionIconos{
+    text-align: center;
+    display: block;
+}
+.espacioDeIconos{
+    display: inline-block;
+    margin-left: 65px;
+    height: 50px;
+    width: 50px;
+}
+.Iconos{
+    height: 50px;
+    width: 50px;
+}
+.seccionIconos2{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+.seccionTextoIconos{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.espacioDeTexto{
+    display: inline-block;
+    margin-left: 65px;
+    height: 50px;
+    width: 50px;
+}
+.textoFooter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.contenedorBusqueda{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}

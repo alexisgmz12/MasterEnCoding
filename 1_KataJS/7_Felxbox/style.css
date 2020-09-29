@@ -1,0 +1,21 @@
+.contenedor{
+    background-color: purple;
+ height: 800px;
+ width: 800px;   
+ color: purple;
+ flex-direction: wrap;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.hijo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    border: 1px solid black;
+    color: white;
+}

@@ -1,0 +1,52 @@
+body{
+    background-image: url("IMG_1011.JPG");
+    opacity: 150%;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+img{
+    
+    /*margin-left: 1200px; 
+*/
+    width: 35%;
+     
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:white;
+    text-shadow: purple;
+    font-size: 35px;
+    text-indent: 30px;
+}
+
+.background{
+    background-color: cadetblue;font-size: 35px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+
+}
+
+p{
+    background-color: darkgoldenrod;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 55px;
+    color: whitesmoke;
+  }
+  /*
+  Agregar estilos a nuestra pagina personal. Deben centrar una imagen suya, cambiar colores de texto, agregar una imagen o color de fondo, cambiar tamaños de texto
+*/

@@ -1,0 +1,71 @@
+body{
+    background-size: auto;
+    background: linear-gradient(to left, rgb(39, 102, 197) 0% , rgb(131, 209, 253) 100% );
+}
+
+.caja{
+
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 40px;
+}
+
+.img {
+    width: 300px;
+    
+}
+
+.button{
+    font-size: 20px;
+    background-color: yellowgreen;
+    margin-left: 20px;
+}
+
+.textLista{
+    font-size: 15px;
+}
+
+.seccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonLista{
+    font-size: 15px;
+    margin-left: 20px;
+    background: transparent;
+}
+
+.buttonAzar{
+    animation: mueve 1s infinite 7s ;
+    margin-top: 30px;
+}
+
+@keyframes mueve{
+    0%{
+
+    }
+
+    20%{
+        scale: .5;
+        opacity: .4;
+        transform: translate(100%, 0);
+    }
+
+    30%{
+        scale: 1;
+        opacity: 1;
+        transform: translate(0,0);
+    }
+
+    70%{
+        transform: translate(800%,0);
+    }
+
+    100%{
+        scale: 1;
+        transform: translate(500%,0);
+    }
+}
