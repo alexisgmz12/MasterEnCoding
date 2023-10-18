@@ -1,0 +1,14 @@
+{
+  "name": "14_promises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexis Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

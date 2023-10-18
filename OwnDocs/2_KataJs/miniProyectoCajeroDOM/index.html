@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Seccion login-->
+    <section id="cajaLogin" class="cajaLogin">
+        <section class="loginBorder">
+            <section class="login">
+                <h2 class="textoBienvenido">Bienvenido a </h2>
+                <h2 class="nombreCajero">CAJEROS ALEXIS</h2>
+                <input class="inputLogin" type="text" id="userName" value="Ingresa tu nombre y apellido"/>
+                <input class="inputLogin" type="text" id="password" value="Ingresa tu contraseña"/>
+                <button class="buttonLogin" onclick="(user())">Ingresar</button>
+            </section>
+        </section>
+    </section>
+<!--Seecion opciones-->
+    <section id="cajaOpciones" class="cajaOpciones">
+        <section class="opcionesBorder">
+            <section class="Opciones">
+
+                <div class="divOpciones">
+                    <section>
+                        <h2 class="bienvenidoOpciones">Bienvenido</h2>
+                        <h2 class="bienvenidoNombreOpciones" id="userNameOpciones">Pedrito</h2>
+                    </section>
+                    <img class="imgOpciones" src="IMG_D68E219F35C9-1.jpeg" alt="Foto perfil" id="imgPhoto"/>
+                </div>
+                
+                <h1 class="queDeseas">¿Qué deseas hacer?</h1>
+
+                <section class="cajaBotonesOpciones">
+                    <button class="buttonConsultar" onclick="(consultar())">Consultar Saldo</button>
+                    <button class="buttonAñadir" onclick="(añadir())">Añadir Saldo</button>
+                    <button class="buttonRetirar" onclick="(retirar())">Retirar Saldo</button>
+                    <button class="buttonSalir" onclick="(salir())">Salir</button>
+                </section>
+                
+            </section>
+        </section>
+    </section>
+
+<!--Seecion Consultar saldo-->
+    <section id="cajaConsultar" class="cajaConsultar">
+        <section class="consultarBorder">
+            <section class="Consultar">
+
+                
+                <h1  class="txtSaldo">Tu saldo es de </h1>
+                <h1 class="saldo" id="saldoConsultar"> Rupias</h1>
+
+                <h1 class="txtDeseasConsultar">¿Deseas hacer otra acción?</h1>
+                
+                <section class="cajaBotonesOpciones">
+                    <button class="buttonCambiar" onclick="(cambiarCuenta())">Cambiar cuentas</button>
+                    <button class="buttonAñadir" onclick="(añadir())">Añadir Saldo</button>
+                    <button class="buttonRetirar" onclick="(retirar())">Retirar Saldo</button>
+                    <button class="buttonSalir" onclick="(salir())">Salir</button>
+                </section>
+                
+            </section>
+        </section>
+    </section>
+
+<!--Seecion Añadir saldo-->
+    <section id="cajaAñadir" class="cajaAñadir">
+        <section class="añadirBorder">
+            <section class="Añadir">
+
+                
+                <h1 class="txtSaldoAñadir">¿Cuanto deseas añadir? </h1>
+
+                <div class="divAñadirSaldo">
+                    <input class="inputAñadir" type="text" id="añadirCantidad" value="Cantidad">
+
+                    <button class="buttonAñadirSaldo" id="buttonAñadir" onclick="sumaF()">Añadir</button>
+                </div>
+              
+
+              <h1 class="txtnuevoSaldo" > Tu nuevo saldo es de: </h1>
+              <h1 class="nuevoSaldo" id="nuevoSaldoAñadir"></h1>
+
+                <h1 class="txtDeseasConsultar">¿Deseas hacer otra acción?</h1>
+                
+                <section class="cajaBotonesOpciones">
+                    <button class="buttonCambiar" onclick="(cambiarCuenta())">Cambiar cuentas</button>
+                    <button class="buttonConsultar" onclick="(consultar())">Consultar saldo</button>
+                    <button class="buttonRetirar" onclick="(retirar())">Retirar Saldo</button>
+                    <button class="buttonSalir" onclick="(salir())">Salir</button>
+                </section>
+                
+            </section>
+        </section>
+    </section>
+
+<!--Seecion Retirar saldo-->
+    <section id="cajaRetirar" class="cajaRetirar">
+        <section class="retirarBorder">
+            <section class="Retirar">
+
+                
+                <h1 class="txtSaldoAñadir">¿Cuanto deseas retirar? </h1>
+
+                <div class="divAñadirSaldo">
+                    <input class="inputAñadir" type="text" id="retirarCantidad" value="Cantidad">
+
+                    <button class="buttonRetirarSaldo" id="buttonRetirar" onclick="restaF()">Retirar</button>
+                </div>
+              
+
+              <h1 class="txtnuevoSaldo"> Tu nuevo saldo es de:</h1>
+              <h1 class="nuevoSaldo" id="nuevoSaldoRetirar"></h1>
+
+                <h1 class="txtDeseasConsultar">¿Deseas hacer otra acción?</h1>
+                
+                <section class="cajaBotonesOpciones">
+                    <button class="buttonCambiar" onclick="(cambiarCuenta())">Cambiar cuentas</button>
+                    <button class="buttonConsultar" onclick="(consultar())">Consultar saldo</button>
+                    <button class="buttonAñadir" onclick="(añadir())">Añadir Saldo</button>
+                    <button class="buttonSalir" onclick="(salir())">Salir</button>
+                </section>
+                
+            </section>
+        </section>
+    </section>
+
+<!--Seecion Salir-->
+    <section id="cajaSalir" class="cajaSalir">
+        <section class="salirBorder">
+            <section class="Salir">
+            <h1 class="txtnuevoSaldo"> Gracias por usar </h1>
+            <h2 class="nombreCajero">CAJEROS ALEXIS</h2>
+            <h1 class="txtDeseasConsultar">Vuelve pronto por tus rupias! </h1>
+                
+            </section>
+        </section>
+    </section>
+
+    
+    <script src="main.js"></script>
+
+    
+    
+</body>
+</html>

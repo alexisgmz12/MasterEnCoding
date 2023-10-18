@@ -1,0 +1,10 @@
+.seccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    margin-left: 20px;
+    background: transparent;
+}
